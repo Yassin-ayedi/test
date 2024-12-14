@@ -37,6 +37,7 @@ def show_board():
     canvas.create_image(0, 0, anchor=tk.NW, image=board_image)
 
 # Function to go to the previous board
+# bagla lih 
 def show_previous_board():
     global current_index
     if current_index > 0:
